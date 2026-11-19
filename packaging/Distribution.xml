@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+  <title>ACE-DAW Transfer</title>
+  <options customize="never" require-scripts="true" hostArchitectures="arm64,x86_64"/>
+  <allowed-os-versions><os-version min="15.0"/></allowed-os-versions>
+  <choices-outline><line choice="arm"/><line choice="intel"/></choices-outline>
+  <choice id="arm" visible="false" selected="system.sysctl('hw.optional.arm64') == 1"><pkg-ref id="audio.qing.ace-daw-transfer.arm64"/></choice>
+  <choice id="intel" visible="false" selected="system.sysctl('hw.optional.arm64') != 1"><pkg-ref id="audio.qing.ace-daw-transfer.x86_64"/></choice>
+  <pkg-ref id="audio.qing.ace-daw-transfer.arm64" version="1.4.10">arm64.pkg</pkg-ref>
+  <pkg-ref id="audio.qing.ace-daw-transfer.x86_64" version="1.4.10">x86_64.pkg</pkg-ref>
+</installer-gui-script>

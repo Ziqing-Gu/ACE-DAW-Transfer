@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracklist2>
+   <list name="track" type="obj">
+      <obj class="MVideoTrackEvent" ID="4028534336">
+         <int name="Flags" value="1"/>
+         <float name="Start" value="0"/>
+         <float name="Length" value="1200"/>
+         <obj class="MListNode" name="Node" ID="2046632640">
+            <string name="Name" value="Video" wide="true"/>
+            <member name="Domain">
+               <int name="Type" value="1"/>
+               <float name="Period" value="1"/>
+            </member>
+            <list name="Events" type="obj">
+               <obj class="MVideoEvent" ID="3291726000">
+                  <float name="Start" value="0"/>
+                  <float name="Length" value="2"/>
+                  <obj class="PVideoClip" name="Node" ID="3981826016">
+                     <string name="Name" value="test-video" wide="true"/>
+                     <member name="Domain">
+                        <int name="Type" value="1"/>
+                        <float name="Period" value="1"/>
+                     </member>
+                     <obj class="FNPath" name="Path" ID="2146123904">
+                        <string name="Name" value="test-video.mp4" wide="true"/>
+                        <string name="Path" value="./" wide="true"/>
+                        <member name="FileType">
+                           <string name="DosType" value="mp4" wide="true"/>
+                           <string name="UnixType" value="mp4" wide="true"/>
+                           <string name="Name" value="MPEG 4 视频文件" wide="true"/>
+                        </member>
+                     </obj>
+                     <obj class="VideoFile" name="File" ID="3819511536">
+                        <obj name="Path" ID="2146123904"/>
+                        <int name="FrameCount" value="0"/>
+                        <float name="Rate" value="0"/>
+                        <member name="Size">
+                           <int name="L" value="0"/>
+                           <int name="T" value="0"/>
+                           <int name="R" value="0"/>
+                           <int name="B" value="0"/>
+                        </member>
+                     </obj>
+                  </obj>
+               </obj>
+            </list>
+         </obj>
+         <member name="Additional Attributes">
+            <int name="VshT" value="1"/>
+            <obj class="UTextEditorBuffer" name="NPad" ID="3914374288">
+               <int name="Cursor" value="0"/>
+            </obj>
+            <obj class="MTrackVariationCollection" name="TVCi" ID="3931197088">
+               <int name="ownership" value="2"/>
+               <list name="obj" type="obj">
+                  <obj class="MTrackVariation" ID="3833001856">
+                     <string name="name" value="v1" wide="true"/>
+                     <int name="variationID" value="0"/>
+                  </obj>
+               </list>
+            </obj>
+            <int name="Eths" value="-260498236"/>
+         </member>
+         <obj class="MVideoTrack" name="Track Device" ID="3996796048">
+            <int name="Connection Type" value="2"/>
+         </obj>
+      </obj>
+   </list>
+   <obj class="ExternalRouting" name="ExternalRouting" ID="3906170160">
+      <member name="Audio">
+      </member>
+   </obj>
+   <obj class="PArrangeSetup" name="Setup" ID="2044210256">
+      <member name="Length">
+         <float name="Time" value="1200"/>
+         <member name="Domain">
+            <int name="Type" value="1"/>
+            <float name="Period" value="1"/>
+         </member>
+      </member>
+      <int name="BarOffset" value="0"/>
+      <int name="FrameType" value="2"/>
+      <int name="TimeType" value="2"/>
+      <float name="SampleRate" value="48000"/>
+      <int name="SampleSize" value="24"/>
+      <int name="SampleFormatSize" value="3"/>
+      <int name="PanLaw" value="6"/>
+      <int name="RecordFile" value="1"/>
+      <member name="RecordFileType">
+         <int name="MacType" value="1463899717"/>
+         <string name="DosType" value="wav" wide="true"/>
+         <string name="UnixType" value="wav" wide="true"/>
+         <string name="Name" value="Broadcast Wave 文件" wide="true"/>
+      </member>
+      <int name="VolumeMax" value="1"/>
+      <int name="HmtType" value="0"/>
+      <int name="HmtDepth" value="100"/>
+      <int name="panningLayerMode" value="0"/>
+   </obj>
+</tracklist2>

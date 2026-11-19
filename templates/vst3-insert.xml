@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<item>
+                        <int name="RuntimeID" value="589" />
+                        <string name="Plugin isA" value="VstCtrlInternalEffect" />
+                        <member name="Plugin">
+                           <member name="Plugin UID">
+                              <string name="GUID" value="1234567890ABCDEF1234567890ABCDEF" wide="true" />
+                           </member>
+                           <string name="Plugin Name" value="Example Effect" wide="true" />
+                           <int name="Audio Input Count" value="1" />
+                           <list name="Audio Input Arrangement" type="list">
+                              <item>
+                                 <list name="Type" type="int">
+                                    <item value="1" />
+                                    <item value="2" />
+                                 </list>
+                              </item>
+                           </list>
+                           <int name="Audio Output Count" value="1" />
+                           <list name="Audio Output Arrangement" type="list">
+                              <item>
+                                 <list name="Type" type="int">
+                                    <item value="1" />
+                                    <item value="2" />
+                                 </list>
+                              </item>
+                           </list>
+                           <int name="Event Input Count" value="1" />
+                           <list name="Event Input Name" type="string">
+                              <item value="Midi In" />
+                           </list>
+                           <list name="Event Input Channel Count" type="int">
+                              <item value="1" />
+                           </list>
+                           <int name="Event Output Count" value="0" />
+                           <bin name="audioComponent">00000000</bin>
+                           <bin name="editController">00000000</bin>
+                           <int name="Version" value="1" />
+                           <int name="Editor Size Count" value="0" />
+                           <int name="Active" value="1" />
+                           <string name="IDString" value="036EB5302A5911E2A28170076288709B-0" />
+                           <string name="Bay Program" value="" wide="true" />
+                           <int name="BypassTag" value="1073746025" />
+                           <int name="RuntimeID" value="693" />
+                        </member>
+                        <member name="Patcher">
+                           <list name="Prev Output Connections" type="list">
+                              <item>
+                                 <int name="Prev Output Speaker Type" value="1" />
+                                 <list name="Prev Output Connection" type="list">
+                                    <item>
+                                       <int name="ID" value="0" />
+                                       <int name="Arrangement Index" value="0" />
+                                       <int name="Speaker Type" value="1" />
+                                    </item>
+                                 </list>
+                              </item>
+                              <item>
+                                 <int name="Prev Output Speaker Type" value="2" />
+                                 <list name="Prev Output Connection" type="list">
+                                    <item>
+                                       <int name="ID" value="0" />
+                                       <int name="Arrangement Index" value="0" />
+                                       <int name="Speaker Type" value="2" />
+                                    </item>
+                                 </list>
+                              </item>
+                           </list>
+                           <list name="Input Connections" type="list">
+                              <item>
+                                 <int name="Input Speaker Type" value="1" />
+                                 <list name="Input Connection" type="list">
+                                    <item>
+                                       <int name="ID" value="0" />
+                                       <int name="Arrangement Index" value="0" />
+                                       <int name="Speaker Type" value="1" />
+                                    </item>
+                                 </list>
+                              </item>
+                              <item>
+                                 <int name="Input Speaker Type" value="2" />
+                                 <list name="Input Connection" type="list">
+                                    <item>
+                                       <int name="ID" value="0" />
+                                       <int name="Arrangement Index" value="0" />
+                                       <int name="Speaker Type" value="2" />
+                                    </item>
+                                 </list>
+                              </item>
+                           </list>
+                        </member>
+                        <int name="WasEnableBeforeFreeze" value="0" />
+                        <int name="State" value="1" />
+                        <int name="SlotType" value="-1" />
+                     </item>

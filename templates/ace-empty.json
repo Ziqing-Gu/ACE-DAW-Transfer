@@ -1,0 +1,58 @@
+{
+  "version": 30,
+  "versionRevision": 0,
+  "duration": 57600,
+  "trackCells": 2147483646,
+  "pianoCells": 2147483646,
+  "colorIndex": 0,
+  "mergedPatternIndex": 0,
+  "recordPatternIndex": 0,
+  "trackControlPanelW": 0,
+  "loop": {
+    "valid": false,
+    "active": false,
+    "start": 0,
+    "end": 7680
+  },
+  "extraInfo": {},
+  "patternIndividualColorIndex": 21,
+  "tempoBrushOn": false,
+  "minBpm": 60.0,
+  "maxBpm": 180.0,
+  "tempoTrackHeight": 120.0,
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "frameRate": 30.0,
+    "adaptive": true
+  },
+  "vocalControlRoute": 2,
+  "tempos": [
+    {
+      "position": 0.0,
+      "bpm": 120.0,
+      "bend": 0.0
+    }
+  ],
+  "timeSignatures": [
+    {
+      "barPos": 0,
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "master": {
+    "gain": 0.0
+  },
+  "videoTracks": [],
+  "pianoDisplayConfig": {
+    "backgroundHint": {
+      "isOn": false,
+      "mode": "scale",
+      "keySignature": "C",
+      "scale": "Major",
+      "fold": false,
+      "keySnap": false
+    }
+  }
+}
