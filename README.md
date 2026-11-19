@@ -10,9 +10,13 @@ Move a score into Cubase or Nuendo for picture edits and take supported changes 
 
 ## 许可证 / License
 
-**第一方源码可见，禁止商业使用。** 再分发须提供完整对应源码、保留署名并遵守相同许可。商业使用须另获书面许可。第三方组件遵循各自的许可。
+### 禁止商业使用 / No commercial use
 
-**First-party source is available for non-commercial use.** Redistribution requires corresponding source, attribution and the same license. Commercial use requires separate written permission. Third-party components keep their respective licenses. [LICENSE](https://github.com/Ziqing-Gu/ACE-DAW-Transfer/blob/main/LICENSE) · [许可政策 / License policy](https://github.com/Ziqing-Gu/ACE-DAW-Transfer/blob/main/LICENSE_POLICY_CHANGE.md)
+**Qing Audio 非商业源码共享许可证 1.0 / Qing Audio Non-Commercial Source-Share License 1.0**
+
+本项目公开第一方源码。OSI 开源认证不适用于本许可。个人、学习、教育、研究、评估、爱好和其他非商业用途可依许可使用。商业使用须另获书面授权。分发原版、二进制版或修改版时，须免费提供完整对应源码，保留作者、版权及许可声明，醒目标明原项目、作者、来源链接、修改者、日期与修改内容。整个修改版须沿用同一许可证。第三方组件各自的许可继续适用。
+
+First-party source is available for personal, educational, research, evaluation, hobby, charitable and other non-commercial uses. This license has no OSI open-source approval. Commercial use requires separate written permission. When distributing original, binary or modified versions, provide the complete corresponding source at no charge, preserve authorship, copyright and license notices, and identify the original project, author, source URL, modifier, date and changes. Keep the entire modified work under the same license. Third-party components retain their respective terms. [完整许可证 / Full license](https://github.com/Ziqing-Gu/ACE-DAW-Transfer/blob/main/LICENSE) · [许可政策 / License policy](https://github.com/Ziqing-Gu/ACE-DAW-Transfer/blob/main/LICENSE_POLICY_CHANGE.md)
 
 ## 最新下载与说明书 / Downloads and user guides
 
@@ -53,6 +57,8 @@ Use the language menu in the upper-right corner to switch immediately. The choic
 | 1.2.0 | 增加第三方 VST3 静态效果器链的身份、顺序与状态传递。目标系统需要相同插件。 | Adds plug-in identity, order and state transfer for static third-party VST3 chains. The receiving system needs matching plug-ins. |
 | 1.1.0 | 加入从轨道 XML 转入 ACE 的反向流程，发布双向工具名称与图标。 | Adds the return path from track archive XML into ACE and introduces the bidirectional tool name and icon. |
 | 1.0.0 | Stable。首版从已保存的 ACE 工程生成可编辑的 Steinberg 轨道 XML，保留独立片段和支持的淡化。 | Stable. The first version generates an editable Steinberg track archive directly from a saved ACE project, retaining separate clips and supported fades. |
+
+[逐版记录 / Changelog](https://github.com/Ziqing-Gu/ACE-DAW-Transfer/blob/main/CHANGELOG.md)
 
 ## 历史下载 / Previous releases
 

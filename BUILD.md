@@ -2,6 +2,8 @@
 
 ## Windows x64
 
+The 1.4.10 Windows release uses the locally built and verified Windows payload. GitHub Actions builds the Mac payloads.
+
 Use 64-bit CPython 3.10 with Tcl/Tk. From a clean virtual environment in the repository root, run the following in PowerShell. The MSI builder uses the Windows Installer API provided by this Python version.
 
 ```powershell
