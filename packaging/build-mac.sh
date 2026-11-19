@@ -21,7 +21,7 @@ for field in CFBundleVersion CFBundleShortVersionString; do
 done
 codesign --force --sign - "$bundle"
 codesign --verify --deep --strict "$bundle"
-lipo -verify_arch "$architecture" "$bundle/Contents/MacOS/ACE-DAW Transfer"
+lipo "$bundle/Contents/MacOS/ACE-DAW Transfer" -verify_arch "$architecture"
 python packaging/smoke.py "$bundle/Contents/MacOS/ACE-DAW Transfer"
 mkdir -p build/payload
 ditto "$bundle" "build/payload/ACE-DAW Transfer.app"

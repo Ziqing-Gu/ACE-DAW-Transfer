@@ -63,7 +63,7 @@ jobs:
           set -euo pipefail
           sudo installer -pkg ACE-DAW-Transfer-1.4.10-macOS.pkg -target /
           app="/Applications/ACE-DAW Transfer.app/Contents/MacOS/ACE-DAW Transfer"
-          lipo -verify_arch "$(uname -m)" "$app"
+          lipo "$app" -verify_arch "$(uname -m)"
           python -m pip install -r packaging/requirements-mac.txt
           PYTHONPATH="$PWD" python packaging/smoke.py "$app"
 
